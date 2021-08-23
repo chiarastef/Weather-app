@@ -16,7 +16,7 @@
   </head>
   <body>
     <div class="container">
-      <form class="row select-city" id="search-form">
+      <form class="row search-city-form" id="search-form">
         <input
           type="text"
           class="form-control col-7 enter-city"
@@ -36,18 +36,18 @@
         </button>
       </form>
 
-      <div class="row current-weather">
+      <div class="row overview-weather">
         <div class="col-7">
           <div class="row">
             <div class="col-4">
               <img src="images/sun.png" alt="sun" />
             </div>
-            <div class="col-4 weather-now">
-              <div class="temperature-now">
+            <div class="col-4 current-weather">
+              <div class="current-temperature">
                 <span id="temperature"></span>
-                <span class="units"> °C </span>
+                <span class="units">°C</span>
               </div>
-              <div class="weather-type-now" id="weather-description"></div>
+              <div class="weather-type" id="weather-description"></div>
             </div>
             <div class="col-4 more-info-weather">
               Humidity: <span id="humidity"></span>% <br />Wind:

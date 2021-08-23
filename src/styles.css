@@ -1,5 +1,5 @@
 .container {
-  width: 750px;
+  width: 700px;
   margin-top: 60px;
   background-color: #e7eaf69c;
   border: 1px solid #a2a8d3;
@@ -9,7 +9,7 @@
 
 /* SEARCH AND SELECT CITY */
 
-.select-city {
+.search-city-form {
   padding: 30px 20px;
 }
 
@@ -48,46 +48,46 @@
 
 /* CURRENT WEATHER */
 
-.current-weather {
+.overview-weather {
   color: #233142;
   margin-top: 8px;
 }
 
-.current-weather div img {
+.overview-weather div img {
   width: 80%;
   display: block;
-  margin: 0 auto;
+  margin-left: 20px;
 }
 
-.weather-now {
-  padding-left: 10px;
+.current-weather {
+  padding-left: 15px;
 }
 
 .units {
   position: relative;
-  bottom: 22px;
+  bottom: 18px;
   font-size: 18px;
 }
 
-.weather-now,
+.current-weather,
 .more-info-weather,
 .location {
-  padding-top: 15px;
+  padding-top: 11px;
 }
 
-.temperature-now,
+.current-temperature,
 .current-city {
-  font-size: 50px;
-  line-height: 40px;
+  font-size: 45px;
+  line-height: 1;
+  margin-bottom: 10px;
 }
 
-.weather-type-now {
-  font-size: 20px;
+.weather-type {
+  font-size: 18px;
 }
 
 .more-info-weather {
   font-size: 13.5px;
-  padding-left: 25px;
 }
 
 .location {
@@ -96,8 +96,7 @@
 }
 
 .current-date-time {
-  font-size: 18px;
-  line-height: 55px;
+  font-size: 17px;
 }
 
 /* END CURRENT WEATHER */
@@ -105,7 +104,7 @@
 /* FUTURE WEATHER */
 
 .future-forecast {
-  margin-top: 40px;
+  margin-top: 45px;
   margin-bottom: 30px;
   color: #233142;
 }
