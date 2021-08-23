@@ -153,3 +153,149 @@ footer a:hover {
   color: #111820;
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  .container {
+    width: 90%;
+    margin: 30px auto 0;
+  }
+
+  .search-city-form {
+    padding-bottom: 17px;
+  }
+
+  .enter-city {
+    width: 100%;
+  }
+
+  .search-button {
+    width: 20%;
+    height: 35px;
+    margin-left: 3px;
+    padding: 0;
+  }
+
+  .search-button img {
+    width: 25%;
+  }
+
+  .current-position-button {
+    width: 50%;
+    font-size: 13px;
+    padding: 0;
+  }
+
+  .search-button,
+  .current-position-button {
+    margin-top: 5px;
+  }
+
+  .overview-weather div img {
+    width: 90%;
+  }
+
+  .current-weather {
+    padding-right: 0;
+  }
+
+  .current-weather,
+  .more-info-weather,
+  .location {
+    padding-top: 0;
+  }
+
+  .current-temperature,
+  .current-city {
+    font-size: 23px;
+  }
+
+  .units {
+    position: relative;
+    bottom: 12px;
+    font-size: 9px;
+  }
+
+  .weather-type,
+  .current-date-time {
+    font-size: 11.5px;
+  }
+
+  .more-info-weather {
+    font-size: 10px;
+    padding-right: 0;
+  }
+
+  .future-forecast {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .what-day,
+  .what-temperature {
+    font-size: 11px;
+  }
+
+  footer {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .search-city-form {
+    padding-bottom: 15px;
+  }
+
+  .enter-city {
+    width: 100%;
+  }
+
+  .search-button {
+    width: 31%;
+    height: 35px;
+    padding: 0;
+  }
+
+  .search-button img {
+    width: 25px;
+  }
+
+  .current-position-button {
+    width: 60%;
+    padding: 0;
+  }
+
+  .search-button,
+  .current-position-button {
+    margin-top: 10px;
+  }
+
+  .current-temperature,
+  .current-city {
+    font-size: 35px;
+  }
+
+  .units {
+    position: relative;
+    bottom: 14px;
+    font-size: 15px;
+  }
+
+  .weather-type,
+  .current-date-time {
+    font-size: 16px;
+  }
+
+  .more-info-weather {
+    font-size: 11px;
+  }
+
+  .future-forecast {
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+
+  .what-day,
+  .what-temperature {
+    font-size: 14px;
+  }
+}
