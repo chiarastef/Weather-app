@@ -33,7 +33,7 @@ function showTemperature(response) {
     response.data.wind.speed
   );
   document.querySelector("#weather-description").innerHTML =
-    response.data.weather[0].main;
+    response.data.weather[0].description;
 }
 
 function searchCity(city) {

@@ -70,7 +70,6 @@
 }
 
 .current-weather,
-.more-info-weather,
 .location {
   padding-top: 11px;
 }
@@ -86,8 +85,13 @@
   font-size: 18px;
 }
 
+.weather-type::first-letter {
+  text-transform: capitalize;
+}
+
 .more-info-weather {
   font-size: 13.5px;
+  padding-top: 14px;
 }
 
 .location {
@@ -187,7 +191,7 @@ footer a:hover {
 
   .search-button,
   .current-position-button {
-    margin-top: 5px;
+    margin-top: 9px;
   }
 
   .overview-weather div img {
@@ -233,6 +237,10 @@ footer a:hover {
   .what-day,
   .what-temperature {
     font-size: 11px;
+  }
+
+  .attribution {
+    font-size: 5px;
   }
 
   footer {
@@ -297,5 +305,9 @@ footer a:hover {
   .what-day,
   .what-temperature {
     font-size: 14px;
+  }
+
+  .attribution {
+    font-size: 6px;
   }
 }
