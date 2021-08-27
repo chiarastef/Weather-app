@@ -61,12 +61,7 @@
 
 .current-weather {
   padding-left: 15px;
-}
-
-.units {
-  position: relative;
-  bottom: 18px;
-  font-size: 18px;
+  padding-right: 0;
 }
 
 .current-weather,
@@ -79,6 +74,31 @@
   font-size: 45px;
   line-height: 1;
   margin-bottom: 10px;
+}
+
+.units {
+  position: relative;
+  bottom: 18px;
+  font-size: 18px;
+}
+
+.units a {
+  color: #33475f;
+  text-decoration: none;
+}
+
+.units a:hover {
+  text-decoration: underline;
+}
+
+a.active {
+  color: #233142;
+  cursor: default;
+  text-decoration: none;
+}
+
+a.active:hover {
+  text-decoration: none;
 }
 
 .weather-type {
@@ -173,7 +193,7 @@ footer a:hover {
   }
 
   .search-button {
-    width: 20%;
+    width: 25%;
     height: 35px;
     margin-left: 3px;
     padding: 0;
@@ -196,10 +216,12 @@ footer a:hover {
 
   .overview-weather div img {
     width: 90%;
+    margin-left: 11px;
   }
 
   .current-weather {
     padding-right: 0;
+    padding-left: 3px;
   }
 
   .current-weather,
@@ -210,12 +232,12 @@ footer a:hover {
 
   .current-temperature,
   .current-city {
-    font-size: 23px;
+    font-size: 21px;
   }
 
   .units {
     position: relative;
-    bottom: 10px;
+    bottom: 9px;
     font-size: 9px;
   }
 
@@ -225,7 +247,7 @@ footer a:hover {
   }
 
   .more-info-weather {
-    font-size: 10px;
+    font-size: 8px;
     padding-right: 0;
   }
 
@@ -284,8 +306,8 @@ footer a:hover {
 
   .units {
     position: relative;
-    bottom: 14px;
-    font-size: 15px;
+    bottom: 17px;
+    font-size: 13px;
   }
 
   .weather-type,

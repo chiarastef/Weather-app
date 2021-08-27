@@ -19,7 +19,7 @@
     <div class="container">
       <form class="row search-city-form" id="search-form">
         <input
-          type="text"
+          type="search"
           class="form-control col-7 enter-city"
           id="input-city"
           placeholder="Enter a city"
@@ -46,7 +46,10 @@
             <div class="col-4 current-weather">
               <div class="current-temperature">
                 <span id="temperature"></span>
-                <span class="units">°C</span>
+                <span class="units">
+                  <a href="#" id="celsius-link" class="active">°C</a> |
+                  <a href="#" id="fahrenheit-link"> °F</a>
+                </span>
               </div>
               <div class="weather-type" id="weather-description"></div>
             </div>
