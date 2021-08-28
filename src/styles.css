@@ -54,7 +54,7 @@
 }
 
 .overview-weather div img {
-  width: 80%;
+  width: 95%;
   display: block;
   margin-left: 20px;
 }
@@ -137,20 +137,24 @@ a.active:hover {
   text-align: center;
 }
 
-.what-day {
+.future-forecast-day {
   margin-bottom: 8px;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .single-future-forecast img {
-  width: 65%;
+  width: 60%;
   display: block;
   margin: 0 auto;
 }
 
-.what-temperature {
+.future-forecast-temperature {
   margin-top: 8px;
-  font-size: 15px;
+  font-size: 13.5px;
+}
+
+.future-forecast-temperature-min {
+  opacity: 0.8;
 }
 
 /* END FUTURE WEATHER */
@@ -256,8 +260,11 @@ footer a:hover {
     margin-bottom: 10px;
   }
 
-  .what-day,
-  .what-temperature {
+  .future-forecast-day {
+    font-size: 12px;
+  }
+
+  .future-forecast-temperature {
     font-size: 11px;
   }
 
@@ -324,9 +331,12 @@ footer a:hover {
     margin-bottom: 20px;
   }
 
-  .what-day,
-  .what-temperature {
+  .future-forecast-day {
     font-size: 14px;
+  }
+
+  .future-forecast-temperature {
+    font-size: 13px;
   }
 
   .attribution {
