@@ -131,6 +131,7 @@ a.active:hover {
   margin-top: 45px;
   margin-bottom: 30px;
   color: #233142;
+  justify-content: center;
 }
 
 .single-future-forecast {
