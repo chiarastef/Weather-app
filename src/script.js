@@ -43,9 +43,9 @@ function displayForecast(response) {
         `
           <div class="col-2 single-future-forecast">
             <div class="future-forecast-day">${formatDay(forecastDay.dt)}</div>
-            <img src="https://openweathermap.org/img/wn/${
-              forecastDay.weather[0].icon
-            }@2x.png" alt="weather icon" />
+            <img src="images/${forecastDay.weather[0].icon}.png" alt="${
+          forecastDay.weather[0].description
+        }" />
             <div class="future-forecast-temperature">
               <span class="future-forecast-temperature-max"> ${Math.round(
                 forecastDay.temp.max
@@ -83,10 +83,7 @@ function showTemperature(response) {
     response.data.weather[0].description;
   document
     .querySelector("#weather-icon")
-    .setAttribute(
-      "src",
-      `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
-    );
+    .setAttribute("src", `images/${response.data.weather[0].icon}.png`);
   document
     .querySelector("#weather-icon")
     .setAttribute("alt", response.data.weather[0].description);
@@ -154,4 +151,4 @@ fahrenheitLink.addEventListener("click", displayFahrenheitTemp);
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemp);
 
-searchCity("New York");
+searchCity("Morayfield");
